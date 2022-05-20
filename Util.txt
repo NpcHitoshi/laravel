@@ -1,0 +1,17 @@
+- Migration
+Comandos:
+* php artisan migrate
+* php artisan migrate:status
+* php artisan migrate:rollback
+
+- Seeder
+Responsavel por popular o banco de dados em sua inicialização
+Comandos:
+* php artisan make:seeder NomeClasseSeeder
+    cria a classe seeder base 
+* php artisan db:seed --class=MotivoContatoSeeder
+    executa o seeder através da classe referenciada
+
+- Classe DB
+* DB::statement('')
+    executar instrução SQL
