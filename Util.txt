@@ -2,7 +2,10 @@
 Comandos:
 * php artisan migrate
 * php artisan migrate:status
+    verificar status das migrações
 * php artisan migrate:rollback
+* php artisan make:X nomeX -m
+    a opção "-m" cria a migration
 
 - Seeder
 Responsavel por popular o banco de dados em sua inicialização
@@ -15,3 +18,9 @@ Comandos:
 - Classe DB
 * DB::statement('')
     executar instrução SQL
+
+
+php artisan make:middleware NomeMiddleware
+php artisan make:model logAcesso -m
+
+dd = da um die no script e forma um objeto Response
